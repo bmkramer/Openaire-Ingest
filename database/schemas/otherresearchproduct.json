@@ -1,6 +1,6 @@
 [
   {
-    "name": "subtitle",
+    "name": "subTitle",
     "description": "Explanatory or alternative name by which a scientific result is known.",
     "mode": "NULLABLE",
     "type": "STRING"
@@ -80,7 +80,7 @@
         "type": "STRING"
       },
       {
-        "name": "accessright",
+        "name": "accessRight",
         "description": "The accessRights for this materialization of the result",
         "mode": "NULLABLE",
         "type": "RECORD",
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "name": "publicationdate",
+        "name": "publicationDate",
         "description": "Date of the research product",
         "mode": "NULLABLE",
         "type": "DATE"
@@ -131,7 +131,7 @@
     "type": "STRING"
   },
   {
-    "name": "dateofcollection",
+    "name": "dateOfCollection",
     "description": "When OpenAIRE collected the record the last time",
     "mode": "NULLABLE",
     "type": "STRING"
@@ -317,7 +317,7 @@
     ]
   },
   {
-    "name": "maintitle",
+    "name": "mainTitle",
     "description": "A name or title by which a scientific result is known. May be the title of a publication, of a dataset or the name of a piece of software.",
     "mode": "NULLABLE",
     "type": "STRING"
@@ -329,7 +329,7 @@
     "type": "STRING"
   },
   {
-    "name": "lastupdatetimestamp",
+    "name": "lastUpdateTimeStamp",
     "description": "Timestamp of last update of the record in OpenAIRE",
     "mode": "NULLABLE",
     "type": "INTEGER"
@@ -341,7 +341,7 @@
     "type": "STRING"
   },
   {
-    "name": "bestaccessright",
+    "name": "bestAccessRight",
     "description": "The openest of the access rights of this result.",
     "mode": "NULLABLE",
     "type": "RECORD",
@@ -489,13 +489,13 @@
     "type": "STRING"
   },
   {
-    "name": "publicationdate",
+    "name": "publicationDate",
     "description": "Main date of the research product: typically the publication or issued date.",
     "mode": "NULLABLE",
     "type": "DATE"
   },
   {
-    "name": "embargoenddate",
+    "name": "embargoEndDate",
     "description": "Date when the embargo ends and this result turns Open Access",
     "mode": "NULLABLE",
     "type": "STRING"
@@ -566,7 +566,7 @@
         "type": "STRING"
       },
       {
-        "name": "fullname",
+        "name": "fullName",
         "mode": "NULLABLE",
         "type": "STRING"
       }
