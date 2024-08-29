@@ -240,7 +240,83 @@
   },
   {
     "name": "indicators",
-    "description": "The impact measures (i.e. popularity)",
+    "description": "Indicators computed for this result, for example UsageCount ones",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "citationImpact",
+        "description": ""description" : "The impact measures (i.e. popularity)"",
+        "type": "RECORD",
+        "mode": "NULLABLE", # check: repeated
+        "fields": [
+          {
+            "name": "citationClass",
+            "mode": "NULLABLE",
+            "type": "STRING"
+          },
+          {
+            "name": "citationCount",
+            "mode": "NULLABLE",
+            "type": "INTEGER"
+          },
+               {
+            "name": "impulse",
+            "mode": "NULLABLE",
+            "type": "INTEGER" # or FLOAT
+          },
+          {
+            "name": "impulseClass",
+            "mode": "NULLABLE",
+            "type": "STRING"
+          },
+          {
+            "name": "influence",
+            "mode": "NULLABLE",
+            "type": "INTEGER" # or FLOAT
+          },
+               {
+            "name": "influenceClass",
+            "mode": "NULLABLE",
+            "type": "STRING"
+          },
+          {
+            "name": "popularity",
+            "mode": "NULLABLE",
+            "type": "INTEGER" # or FLOAT
+          },
+          {
+            "name": "popularityClass",
+            "mode": "NULLABLE",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "usageCounts",
+        "description": ""The usage counts (i.e. downloads)",
+        "type": "RECORD",
+        "mode": "NULLABLE", # was REPEATED - check
+        "fields": [
+          {
+            "name": "downloads",
+            "type": "INTEGER",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "views",
+            "type": "INTEGER",
+            "mode": "NULLABLE"
+          }
+        ]
+      }  
+    ]
+  },
+  
+  
+  {
+    "name": "indicators_og",
+    "description": "Indicators computed for this result, for example UsageCount ones",
     "type": "RECORD",
     "mode": "NULLABLE",
     "fields": [
