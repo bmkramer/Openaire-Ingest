@@ -248,7 +248,7 @@
         "name": "citationImpact",
         "description": ""description" : "The impact measures (i.e. popularity)"",
         "type": "RECORD",
-        "mode": "NULLABLE", # check: repeated
+        "mode": "NULLABLE",
         "fields": [
           {
             "name": "citationClass",
@@ -263,7 +263,7 @@
                {
             "name": "impulse",
             "mode": "NULLABLE",
-            "type": "INTEGER" # or FLOAT
+            "type": "INTEGER"
           },
           {
             "name": "impulseClass",
@@ -273,7 +273,7 @@
           {
             "name": "influence",
             "mode": "NULLABLE",
-            "type": "INTEGER" # or FLOAT
+            "type": "INTEGER"
           },
                {
             "name": "influenceClass",
@@ -283,7 +283,7 @@
           {
             "name": "popularity",
             "mode": "NULLABLE",
-            "type": "INTEGER" # or FLOAT
+            "type": "INTEGER"
           },
           {
             "name": "popularityClass",
@@ -296,7 +296,7 @@
         "name": "usageCounts",
         "description": ""The usage counts (i.e. downloads)",
         "type": "RECORD",
-        "mode": "NULLABLE", # was REPEATED - check
+        "mode": "NULLABLE",
         "fields": [
           {
             "name": "downloads",
@@ -310,166 +310,6 @@
           }
         ]
       }  
-    ]
-  },
-  
-  
-  {
-    "name": "indicators_og",
-    "description": "Indicators computed for this result, for example UsageCount ones",
-    "type": "RECORD",
-    "mode": "NULLABLE",
-    "fields": [
-      {
-        "name": "bipIndicators",
-        "mode": "REPEATED",
-        "type": "RECORD",
-        "fields": [
-          {
-            "name": "indicator",
-            "mode": "NULLABLE",
-            "type": "STRING"
-          },
-          {
-            "name": "class",
-            "mode": "NULLABLE",
-            "type": "STRING"
-          },
-          {
-            "name": "score",
-            "mode": "NULLABLE",
-            "type": "FLOAT"
-          }
-        ]
-      },
-      {
-        "name": "usageCounts",
-        "type": "RECORD",
-        "mode": "REPEATED",
-        "description": "The usage counts (i.e. downloads)",
-        "fields": [
-          {
-            "name": "downloads",
-            "type": "INTEGER",
-            "mode": "NULLABLE"
-          },
-          {
-            "name": "views",
-            "type": "INTEGER",
-            "mode": "NULLABLE"
-          }
-        ]
-      },
-      {
-        "name": "id",
-        "type": "RECORD",
-        "mode": "NULLABLE",
-        "fields": [
-          {
-            "name": "views",
-            "type": "INTEGER",
-            "mode": "NULLABLE"
-          },
-          {
-            "name": "downloads",
-            "type": "INTEGER",
-            "mode": "NULLABLE"
-          }
-        ]
-      },
-      {
-        "name": "impactMeasures",
-        "description": "The impact measures (i.e. popularity)",
-        "type": "RECORD",
-        "mode": "NULLABLE",
-        "fields": [
-          {
-            "name": "popularity_alt",
-            "type": "RECORD",
-            "mode": "NULLABLE",
-            "fields": [
-              {
-                "name": "class",
-                "type": "STRING",
-                "mode": "NULLABLE"
-              },
-              {
-                "name": "score",
-                "type": "FLOAT",
-                "mode": "NULLABLE"
-              }
-            ]
-          },
-          {
-            "name": "popularity",
-            "type": "RECORD",
-            "mode": "NULLABLE",
-            "fields": [
-              {
-                "name": "class",
-                "type": "STRING",
-                "mode": "NULLABLE"
-              },
-              {
-                "name": "score",
-                "type": "FLOAT",
-                "mode": "NULLABLE"
-              }
-            ]
-          },
-          {
-            "name": "influence_alt",
-            "type": "RECORD",
-            "mode": "NULLABLE",
-            "fields": [
-              {
-                "name": "class",
-                "type": "STRING",
-                "mode": "NULLABLE"
-              },
-              {
-                "name": "score",
-                "type": "FLOAT",
-                "mode": "NULLABLE"
-              }
-            ]
-          },
-          {
-            "name": "influence",
-            "type": "RECORD",
-            "mode": "NULLABLE",
-            "fields": [
-              {
-                "name": "class",
-                "type": "STRING",
-                "mode": "NULLABLE"
-              },
-              {
-                "name": "score",
-                "type": "FLOAT",
-                "mode": "NULLABLE"
-              }
-            ]
-          },
-          {
-            "name": "impulse",
-            "type": "RECORD",
-            "mode": "NULLABLE",
-            "fields": [
-              {
-                "name": "class",
-                "type": "STRING",
-                "mode": "NULLABLE"
-              },
-              {
-                "name": "score",
-                "type": "FLOAT",
-                "mode": "NULLABLE"
-              }
-            ]
-          }
-        ]
-      }
     ]
   },
   {
