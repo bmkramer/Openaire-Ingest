@@ -163,7 +163,7 @@
     "type": "STRING"
   },
   {
-    "name": "datasourcetype",
+    "name": "type",
     "mode": "NULLABLE",
     "type": "RECORD",
     "fields": [
