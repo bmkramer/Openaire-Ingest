@@ -275,7 +275,7 @@
             "mode": "NULLABLE",
             "type": "INTEGER"
           },
-               {
+          {
             "name": "influenceClass",
             "mode": "NULLABLE",
             "type": "STRING"
