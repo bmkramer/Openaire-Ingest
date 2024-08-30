@@ -134,7 +134,7 @@
     "fields": [
       {
         "name": "citationImpact",
-        "description": ""description" : "The impact measures (i.e. popularity)"",
+        "description": "The impact measures (i.e. popularity)",
         "type": "RECORD",
         "mode": "NULLABLE",
         "fields": [
@@ -182,7 +182,7 @@
       },
       {
         "name": "usageCounts",
-        "description": ""The usage counts (i.e. downloads)",
+        "description": "The usage counts (i.e. downloads)",
         "type": "RECORD",
         "mode": "NULLABLE",
         "fields": [
