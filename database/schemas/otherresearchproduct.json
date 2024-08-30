@@ -195,12 +195,12 @@
           {
             "name": "citationCount",
             "mode": "NULLABLE",
-            "type": "INTEGER"
+            "type": "FLOAT"
           },
                {
             "name": "impulse",
             "mode": "NULLABLE",
-            "type": "INTEGER"
+            "type": "FLOAT"
           },
           {
             "name": "impulseClass",
@@ -210,7 +210,7 @@
           {
             "name": "influence",
             "mode": "NULLABLE",
-            "type": "INTEGER"
+            "type": "FLOAT"
           },
           {
             "name": "influenceClass",
@@ -220,7 +220,7 @@
           {
             "name": "popularity",
             "mode": "NULLABLE",
-            "type": "INTEGER"
+            "type": "FLOAT"
           },
           {
             "name": "popularityClass",
