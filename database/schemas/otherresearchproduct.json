@@ -524,5 +524,23 @@
     "name": "publiclyFunded",
     "mode": "NULLABLE",
     "type": "BOOLEAN"
-  }
+  },
+  {
+    "name": "articleProcessingCharge",
+    "description": "The money spent to make this book or article available in Open Access. Source for this information is the OpenAPC initiative.",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "amount",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "currency",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
 ]
