@@ -508,7 +508,7 @@
   {
     "name": "isGreen",
     "mode": "NULLABLE",
-    "type": "BOOL"
+    "type": "BOOLEAN"
   },
   {
     "name": "openAccessColor",
@@ -518,11 +518,11 @@
   {
     "name": "isInDiamondJournal",
     "mode": "NULLABLE",
-    "type": "BOOL"
+    "type": "BOOLEAN"
   },
   {
     "name": "publiclyFunded",
     "mode": "NULLABLE",
-    "type": "BOOL"
+    "type": "BOOLEAN"
   }
 ]
