@@ -182,12 +182,6 @@
     ]
   },
   {
-    "name": "contentTypes",
-    "description": "Types of content in the data source, as defined by OpenDOAR",
-    "mode": "REPEATED",
-    "type": "STRING"
-  },
-  {
     "name": "openaireCompatibility",
     "description": "OpenAIRE guidelines the data source comply with. See also https://guidelines.openaire.eu.",
     "mode": "NULLABLE",
