@@ -2,7 +2,7 @@
   {
     "name": "acronym",
     "type": "STRING",
-    "mode": "NULLABLE"
+    "mode": "NULLABLE",
     "description": "The acronym of the project"
   },
   {
