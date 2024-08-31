@@ -4,7 +4,7 @@
 
 workflow_config:  
   zenodo_url_path: https://zenodo.org/records/12819872 # link to the data dump that you want to download and ingest
-  release_date: "20230716" # Has to be in format YYYYMMDD
+  release_date: "20240726" # Has to be in format YYYYMMDD
 
   # Path to where the data will be stored for the workflow
   working_path: /home/alexmassen-hane/repos/openaire-ingest #to be updated
