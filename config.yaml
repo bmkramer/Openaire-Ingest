@@ -47,5 +47,5 @@ cloud_workspace:
   project_id: 
   dataset_id: openaire
   bucket_id: openaire_data
-  bucket_folder: "AUG_2023" #to be updated
+  bucket_folder: "JULY_2024"
   data_location: us
